@@ -43,11 +43,7 @@ import           UI.NCurses.Types
 
 #include "cbits/mavericks-c2hs-workaround.h"
 
-#ifdef HSNCURSES_NARROW_HEADER
-#include <panel.h>
-#else
-#include <ncursesw/panel.h>
-#endif
+include <panel.h>
 
 {# pointer *PANEL as Panel nocode #}
 {# pointer *WINDOW as Window nocode #}
