@@ -187,7 +187,7 @@ import           UI.NCurses.Types
 #define NCURSES_ENABLE_STDBOOL_H 0
 #define _XOPEN_SOURCE_EXTENDED
 #define NCURSES_NOMACROS
-include <ncurses.h>
+#include <ncurses.h>
 
 #include "cbits/hsncurses-shim.h"
 

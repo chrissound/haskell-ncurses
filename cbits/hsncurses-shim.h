@@ -7,7 +7,7 @@
 #define _XOPEN_SOURCE_EXTENDED
 #define NCURSES_NOMACROS
 
-include <ncurses.h>
+#include <ncurses.h>
 
 int hsncurses_has_mouse();
 
