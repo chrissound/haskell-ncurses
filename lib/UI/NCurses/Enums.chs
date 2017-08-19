@@ -26,11 +26,7 @@ import           Prelude (Integer, error, show, (++), compare, Ordering(..))
 #define _XOPEN_SOURCE_EXTENDED
 #define NCURSES_NOMACROS
 
-#ifdef HSNCURSES_NARROW_HEADER
-#include <ncurses.h>
-#else
-#include <ncursesw/ncurses.h>
-#endif
+include <ncurses.h>
 
 class Enum a where
 	toEnum :: Integer -> a
